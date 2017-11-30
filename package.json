@@ -1,0 +1,27 @@
+{
+  "name": "bookshelf-validation",
+  "version": "0.0.1",
+  "description": "Bookshelf plugin that adds Joi validation",
+  "main": "index.js",
+  "repository": "https://github.com/loryman/bookshelf-validation",
+  "bugs": {
+    "url": "https://github.com/loryman/bookshelf-validation/issues"
+  },
+  "author": "Lorenzo Rapetti <lorenzo.rapetti.94@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "joi": "^13.0.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "bookshelf": "^0.12.0",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "knex": "^0.14.2"
+  },
+  "peerDependencies": {
+    "joi": ">=13.0.0 <14.0.0"
+  }
+}
