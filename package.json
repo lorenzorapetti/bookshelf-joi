@@ -10,16 +10,25 @@
   "author": "Lorenzo Rapetti <lorenzo.rapetti.94@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "mocha test/spec",
+    "lint": "eslint ."
+  },
   "dependencies": {
     "joi": "^13.0.2",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
     "bookshelf": "^0.12.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "eslint": "^4.12.1",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.0",
     "eslint-plugin-import": "^2.8.0",
-    "knex": "^0.14.2"
+    "knex": "^0.14.2",
+    "mocha": "^4.0.1",
+    "sqlite3": "^3.1.13"
   },
   "peerDependencies": {
     "joi": ">=13.0.0 <14.0.0"

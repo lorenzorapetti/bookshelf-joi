@@ -1,0 +1,7 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "no-param-reassign": "off",
+        "prefer-rest-params": "off"
+    }
+}
