@@ -13,3 +13,5 @@ coverage
 node_modules
 
 test/db.sqlite
+
+.DS_Store
