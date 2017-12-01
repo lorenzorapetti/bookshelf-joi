@@ -1,6 +1,6 @@
 {
   "name": "bookshelf-joi",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Bookshelf plugin that adds Joi validation",
   "main": "index.js",
   "repository": "https://github.com/loryman/bookshelf-validation",
