@@ -8,6 +8,13 @@
     "url": "https://github.com/loryman/bookshelf-validation/issues"
   },
   "author": "Lorenzo Rapetti <lorenzo.rapetti.94@gmail.com>",
+  "keywords": [
+    "bookshelf",
+    "plugin",
+    "validation",
+    "express",
+    "joi"
+  ],
   "license": "MIT",
   "scripts": {
     "test": "mocha test/spec",
