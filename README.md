@@ -1,4 +1,4 @@
-# bookshelf-validation
+# bookshelf-joi
 
 This is a simple [Bookshelf](http://bookshelfjs.org/) plugin that adds attribute validation with [Joi](https://github.com/hapijs/joi).
 
@@ -6,10 +6,10 @@ This plugin takes the validation part of [bookshelf-modelbase](https://github.co
 
 ## Prerequisites
 
-Install `knex`, `Bookshelf`, `Joi` and `bookshelf-validation`:
+Install `knex`, `Bookshelf`, `Joi` and `bookshelf-joi`:
 
 ```
-yarn add knex bookshelf joi bookshelf-validation
+yarn add knex bookshelf joi bookshelf-joi
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ const knex = require('knex')(require('./knexfile'));
 const Bookshelf = require('bookshelf')('knex');
 const Joi = require('joi');
 
-Bookshelf.plugin(require('bookshelf-validation'));
+Bookshelf.plugin(require('bookshelf-joi'));
 
 const User = Bookshelf.Model.extend({
   tableName: 'users',
@@ -64,14 +64,14 @@ const User = Bookshelf.Model.extend({
 
 ## Configuration
 
-`bookshelf-validation` can be configured through different paths. The order is: plugin options -> model options -> `save` method options.
+`bookshelf-joi` can be configured through different paths. The order is: plugin options -> model options -> `save` method options.
 
 You can supply all the options available in the [Joi documentation](https://github.com/hapijs/joi/blob/v13.0.2/API.md#validatevalue-schema-options-callback).
 
 ### Plugin options
 
 ```javascript
-Bookshelf.plugin(require('bookshelf-validation'), {
+Bookshelf.plugin(require('bookshelf-joi'), {
   joi: {
     abortEarly: true,
     // ...
