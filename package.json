@@ -9,7 +9,6 @@
   },
   "author": "Lorenzo Rapetti <lorenzo.rapetti.94@gmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "test": "mocha test/spec",
     "lint": "eslint ."
