@@ -41,7 +41,7 @@ User.forge({}).save(null, { validation: false }); // Will skip the validation
 
 ## `buildValidation`
 
-This method gets called when the `saving` event gets emitted, so you get access to all the event parameters. In this way you can some manipolation like:
+This method gets called when the `saving` event gets emitted, so you get access to all the event parameters. In this way you can do some manipolation, like:
 
 ```javascript
 const User = Bookshelf.Model.extend({
