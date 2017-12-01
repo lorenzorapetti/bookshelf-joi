@@ -17,7 +17,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "test": "mocha test/spec",
+    "test": "nyc --reporter=html --reporter=text mocha test/spec",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "bookshelf": "^0.12.0",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
+    "coveralls": "^3.0.0",
     "eslint": "^4.12.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-chai-friendly": "^0.4.0",
@@ -34,6 +36,7 @@
     "joi": "^13.0.2",
     "knex": "^0.14.2",
     "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
     "sqlite3": "^3.1.13"
   },
   "peerDependencies": {

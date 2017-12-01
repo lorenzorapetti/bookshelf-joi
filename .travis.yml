@@ -5,3 +5,5 @@ node_js:
   - "node"
 
 cache: yarn
+
+after_success: yarn coverage

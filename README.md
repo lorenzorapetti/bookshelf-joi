@@ -1,5 +1,12 @@
 # bookshelf-joi
 
+[![npm](https://img.shields.io/npm/v/bookshelf-joi.svg)](https://www.npmjs.com/package/bookshelf-joi)
+[![Build Status](https://img.shields.io/travis/loryman/bookshelf-joi.svg)](https://travis-ci.org/loryman/bookshelf-joi)
+[![Coveralls github](https://img.shields.io/coveralls/github/loryman/bookshelf-joi.svg)](https://coveralls.io/github/loryman/bookshelf-joi)
+[![Dependencies](https://img.shields.io/david/loryman/bookshelf-joi.svg)](https://david-dm.org/loryman/bookshelf-joi)
+[![Dev Dependencies](https://img.shields.io/david/dev/loryman/bookshelf-joi.svg)](https://david-dm.org/loryman/bookshelf-joi?type=dev)
+[![David](https://img.shields.io/david/peer/loryman/bookshelf-joi.svg)](https://david-dm.org/loryman/bookshelf-joi?type=peer)
+
 This is a simple [Bookshelf](http://bookshelfjs.org/) plugin that adds attribute validation with [Joi](https://github.com/hapijs/joi).
 
 This plugin takes the validation part of [bookshelf-modelbase](https://github.com/bsiddiqui/bookshelf-modelbase) and adds some functionality and flexibility.

@@ -5,6 +5,9 @@ yarn-error.log*
 # Coverage directory used by tools like istanbul
 coverage
 
+# Istanbul
+.nyc_output
+
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
